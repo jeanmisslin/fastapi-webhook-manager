@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "fastapi-webhook-manager"
+version = "0.1.0"
+description = "A Dockerized FastAPI application that manages communications between HubSpot and Holded APIs."
+authors = ["JeanGuillaumeClaudeMisslin"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.8"
+uvicorn = "^0.34.0"
+pydantic = "^2.10.6"
+pydantic-settings = "^2.7.1"
+requests = "^2.32.3"
+pandas = "^2.2.3"
+sentry-sdk = "^2.21.0"
+pytest = "^8.3.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
